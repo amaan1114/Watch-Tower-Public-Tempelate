@@ -1,0 +1,93 @@
+name: Watchtower scan
+
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub Actions schedules use UTC. 02:30 UTC is 08:00 IST.
+    - cron: "30 2 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: watchtower-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    env:
+      # Secrets must be exposed through env before an if condition can inspect
+      # whether they were configured for this repository.
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - name: Check out Watchtower
+        uses: actions/checkout@v7
+
+      - name: Set up Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          # pnpm is enabled in the next step; do not ask setup-node to locate
+          # its cache before that executable exists on PATH.
+          package-manager-cache: false
+
+      - name: Enable pnpm
+        run: corepack enable
+
+      - name: Install Watchtower
+        run: pnpm install --frozen-lockfile
+
+      - name: Scan configured projects
+        run: pnpm scan -- --config config/projects.yml
+        env:
+          # Required only when config contains private GitHub repositories.
+          WATCHTOWER_GITHUB_TOKEN: ${{ secrets.WATCHTOWER_GITHUB_TOKEN }}
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Build dashboard
+        run: pnpm build
+        env:
+          VITE_BASE_PATH: /${{ github.event.repository.name }}/
+
+      - name: Commit updated scan history
+        run: |
+          git add data apps/dashboard/public/data
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name "watchtower[bot]"
+          git config user.email "watchtower[bot]@users.noreply.github.com"
+          git commit -m "chore: update Watchtower scan data"
+          git push
+
+      - name: Send Telegram daily report
+        if: ${{ env.TELEGRAM_BOT_TOKEN != '' && env.TELEGRAM_CHAT_ID != '' }}
+        run: pnpm telegram
+        env:
+          WATCHTOWER_DASHBOARD_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+
+      - name: Upload GitHub Pages artifact
+        id: pages
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    needs: scan
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

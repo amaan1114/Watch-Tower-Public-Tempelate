@@ -1,0 +1,17 @@
+# Local sources are useful while developing the scanner. Paths can be absolute,
+# or relative to this file. GitHub repositories are cloned temporarily during a
+# scan; private repositories use WATCHTOWER_GITHUB_TOKEN.
+#
+# projects:
+#   - id: blueprint
+#     name: Blueprint
+#     source:
+#       type: local
+#       path: /Users/abhi/Projects/Blueprint
+#   - id: blueprint
+#     name: Blueprint
+#     source:
+#       type: github
+#       repository: https://github.com/your-github-account/Blueprint.git
+#       ref: main
+projects: []

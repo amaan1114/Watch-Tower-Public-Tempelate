@@ -1,0 +1,12 @@
+{
+  "name": "@watchtower/history",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/persist.ts"
+  },
+  "dependencies": {
+    "@4bhiy/watchtower-core": "workspace:*"
+  }
+}

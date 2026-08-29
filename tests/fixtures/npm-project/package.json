@@ -1,0 +1,10 @@
+{
+  "name": "npm-fixture",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^5.0.0"
+  },
+  "optionalDependencies": {
+    "yaml": "^2.0.0"
+  }
+}

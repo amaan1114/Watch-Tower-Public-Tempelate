@@ -1,0 +1,11 @@
+projects:
+  - id: fixture-monorepo
+    name: Fixture monorepo
+    source:
+      type: local
+      path: ./pnpm-monorepo
+  - id: fixture-npm
+    name: Fixture npm
+    source:
+      type: local
+      path: ./npm-project

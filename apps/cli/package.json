@@ -1,0 +1,15 @@
+{
+  "name": "@watchtower/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scan": "tsx src/scan.ts",
+    "telegram": "tsx src/telegram.ts"
+  },
+  "dependencies": {
+    "@4bhiy/watchtower-core": "workspace:*",
+    "@watchtower/history": "workspace:*",
+    "@watchtower/telegram": "workspace:*"
+  }
+}

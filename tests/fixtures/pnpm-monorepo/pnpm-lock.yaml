@@ -1,0 +1,18 @@
+lockfileVersion: '9.0'
+
+importers:
+  .: {}
+  apps/web:
+    dependencies:
+      zod:
+        specifier: ^4.1.0
+        version: 4.1.12
+  packages/shared:
+    dependencies:
+      zod:
+        specifier: ^3.24.0
+        version: 3.25.76
+      yaml:
+        specifier: ^2.0.0
+        version: 2.9.0
+    devDependencies: {}

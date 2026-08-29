@@ -1,0 +1,44 @@
+{
+  "name": "watchtower",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@11.12.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "scan": "tsx apps/cli/src/scan.ts",
+    "telegram": "tsx apps/cli/src/telegram.ts",
+    "sync-data": "node scripts/sync-dashboard-data.mjs",
+    "dev": "pnpm sync-data && pnpm --filter @watchtower/dashboard dev",
+    "build": "pnpm sync-data && pnpm --filter @watchtower/dashboard build",
+    "build:vscode": "pnpm --filter watchtower-vscode build",
+    "check": "tsc --noEmit",
+    "check:vscode": "tsc --noEmit -p apps/vscode/tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.3",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "semver": "^7.7.2",
+    "yaml": "^2.8.1",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@4bhiy/watchtower-core": "workspace:*",
+    "@watchtower/history": "workspace:*",
+    "@watchtower/telegram": "workspace:*",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.2",
+    "@types/node": "^22.15.3",
+    "@types/semver": "^7.7.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vite": "^7.1.7",
+    "vitest": "^3.1.4"
+  }
+}

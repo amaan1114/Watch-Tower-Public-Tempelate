@@ -1,0 +1,6 @@
+projects:
+  - id: missing-repository
+    name: Missing repository
+    source:
+      type: local
+      path: ./does-not-exist

@@ -1,0 +1,11 @@
+{
+  "name": "@fixture/web",
+  "version": "1.0.0",
+  "dependencies": {
+    "zod": "^4.1.0",
+    "@fixture/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.0"
+  }
+}

@@ -15,9 +15,9 @@
 #       repository: https://github.com/your-github-account/Blueprint.git
 #       ref: main
 projects: 
-  - id: SkillScope
-    name: SkillScope
+  - id: studyzone
+    name: studyzone
     source:
       type: github
-      repository: https://github.com/amaan1114/SkillScope
+      repository: https://github.com/amaan1114/studyzone
       ref: main

@@ -14,4 +14,10 @@
 #       type: github
 #       repository: https://github.com/your-github-account/Blueprint.git
 #       ref: main
-projects: []
+projects: 
+  - id: FinMate
+    name: FinMate
+    source:
+      type: github
+      repository: https://github.com/amaan1114/FinMate
+      ref: main

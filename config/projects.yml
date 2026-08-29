@@ -15,9 +15,9 @@
 #       repository: https://github.com/your-github-account/Blueprint.git
 #       ref: main
 projects: 
-  - id: FinMate
-    name: FinMate
+  - id: SkillScope
+    name: SkillScope
     source:
       type: github
-      repository: https://github.com/amaan1114/FinMate
+      repository: https://github.com/amaan1114/SkillScope
       ref: main

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "from": null,
+  "to": "2026-08-29T11:01:54.158Z",
+  "baseline": true,
+  "projects": [
+    {
+      "id": "studyzone",
+      "events": []
+    }
+  ]
+}

@@ -1,0 +1,733 @@
+{
+  "schemaVersion": 1,
+  "scannedAt": "2026-08-29T11:01:54.158Z",
+  "projects": [
+    {
+      "id": "studyzone",
+      "name": "studyzone",
+      "repository": "https://github.com/amaan1114/studyzone",
+      "scan": {
+        "status": "success",
+        "errors": []
+      },
+      "node": {
+        "packageManager": "npm",
+        "monorepo": false
+      },
+      "workspaces": [
+        {
+          "id": "studyzone",
+          "name": "studyzone",
+          "path": ".",
+          "manifestPath": "package.json",
+          "version": "0.1.0"
+        }
+      ],
+      "internalDependencies": [],
+      "dependencies": [
+        {
+          "name": "@tailwindcss/postcss",
+          "ecosystem": "npm",
+          "latest": "4.3.3",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "devDependencies",
+              "declared": "^4",
+              "resolved": "4.3.1",
+              "update": {
+                "type": "patch",
+                "firstNewerVersion": "4.3.2",
+                "behindSince": "2026-06-29T14:30:17.032Z",
+                "behindDays": 60
+              },
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "@types/node",
+          "ecosystem": "npm",
+          "latest": "26.4.0",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "devDependencies",
+              "declared": "^20",
+              "resolved": "20.19.43",
+              "update": {
+                "type": "major",
+                "firstNewerVersion": "22.0.0",
+                "behindSince": "2024-07-28T10:07:17.761Z",
+                "behindDays": 762
+              },
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "@types/react",
+          "ecosystem": "npm",
+          "latest": "19.2.18",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "devDependencies",
+              "declared": "^19",
+              "resolved": "19.2.17",
+              "update": {
+                "type": "patch",
+                "firstNewerVersion": "19.2.18",
+                "behindSince": "2026-07-30T21:54:03.456Z",
+                "behindDays": 29
+              },
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "@types/react-dom",
+          "ecosystem": "npm",
+          "latest": "19.2.5",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "devDependencies",
+              "declared": "^19",
+              "resolved": "19.2.3",
+              "update": {
+                "type": "patch",
+                "firstNewerVersion": "19.2.4",
+                "behindSince": "2026-07-30T21:53:05.684Z",
+                "behindDays": 29
+              },
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "class-variance-authority",
+          "ecosystem": "npm",
+          "latest": "0.7.1",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "dependencies",
+              "declared": "^0.7.1",
+              "resolved": "0.7.1",
+              "update": null,
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "clsx",
+          "ecosystem": "npm",
+          "latest": "2.1.1",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "dependencies",
+              "declared": "^2.1.1",
+              "resolved": "2.1.1",
+              "update": null,
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "eslint",
+          "ecosystem": "npm",
+          "latest": "10.9.1",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "devDependencies",
+              "declared": "^9",
+              "resolved": "9.39.4",
+              "update": {
+                "type": "major",
+                "firstNewerVersion": "9.39.5",
+                "behindSince": "2026-07-10T20:41:47.507Z",
+                "behindDays": 49
+              },
+              "deprecation": {
+                "isDeprecated": true,
+                "message": "This version is no longer supported. Please see https://eslint.org/version-support for other options."
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "eslint-config-next",
+          "ecosystem": "npm",
+          "latest": "16.3.3",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "devDependencies",
+              "declared": "16.2.9",
+              "resolved": "16.2.9",
+              "update": {
+                "type": "minor",
+                "firstNewerVersion": "16.2.10",
+                "behindSince": "2026-07-01T20:12:41.832Z",
+                "behindDays": 58
+              },
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "framer-motion",
+          "ecosystem": "npm",
+          "latest": "13.1.1",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "dependencies",
+              "declared": "^12.40.0",
+              "resolved": "12.40.0",
+              "update": {
+                "type": "major",
+                "firstNewerVersion": "12.41.0",
+                "behindSince": "2026-06-23T14:41:41.334Z",
+                "behindDays": 66
+              },
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "lenis",
+          "ecosystem": "npm",
+          "latest": "1.3.26",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "dependencies",
+              "declared": "^1.3.23",
+              "resolved": "1.3.23",
+              "update": {
+                "type": "patch",
+                "firstNewerVersion": "1.3.24",
+                "behindSince": "2026-06-24T22:29:07.354Z",
+                "behindDays": 65
+              },
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "lucide-react",
+          "ecosystem": "npm",
+          "latest": "1.37.0",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "dependencies",
+              "declared": "^1.18.0",
+              "resolved": "1.18.0",
+              "update": {
+                "type": "minor",
+                "firstNewerVersion": "1.19.0",
+                "behindSince": "2026-06-16T13:17:46.776Z",
+                "behindDays": 73
+              },
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "next",
+          "ecosystem": "npm",
+          "latest": "16.3.3",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "dependencies",
+              "declared": "16.2.9",
+              "resolved": "16.2.9",
+              "update": {
+                "type": "minor",
+                "firstNewerVersion": "16.2.10",
+                "behindSince": "2026-07-01T20:13:14.041Z",
+                "behindDays": 58
+              },
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": true,
+                "advisories": [
+                  {
+                    "id": "GHSA-4633-3j49-mh5q",
+                    "aliases": [
+                      "CVE-2026-64647"
+                    ],
+                    "url": "https://github.com/vercel/next.js/security/advisories/GHSA-4633-3j49-mh5q",
+                    "severity": "medium",
+                    "affectedRange": ">=13.0.0 <15.5.21 || >=16.0.0 <16.2.11",
+                    "fixedVersion": "16.2.11"
+                  },
+                  {
+                    "id": "GHSA-4c39-4ccg-62r3",
+                    "aliases": [
+                      "CVE-2026-64646"
+                    ],
+                    "url": "https://github.com/vercel/next.js/security/advisories/GHSA-4c39-4ccg-62r3",
+                    "severity": "medium",
+                    "affectedRange": ">=13.0.0 <15.5.21 || >=16.0.0 <16.2.11",
+                    "fixedVersion": "16.2.11"
+                  },
+                  {
+                    "id": "GHSA-68g3-v927-f742",
+                    "aliases": [
+                      "CVE-2026-64648"
+                    ],
+                    "url": "https://github.com/vercel/next.js/security/advisories/GHSA-68g3-v927-f742",
+                    "severity": "medium",
+                    "affectedRange": ">=13.0.0 <15.5.21 || >=16.0.0 <16.2.11",
+                    "fixedVersion": "16.2.11"
+                  },
+                  {
+                    "id": "GHSA-6gpp-xcg3-4w24",
+                    "aliases": [
+                      "CVE-2026-64642"
+                    ],
+                    "url": "https://github.com/vercel/next.js/security/advisories/GHSA-6gpp-xcg3-4w24",
+                    "severity": "high",
+                    "affectedRange": ">=16.0.0 <16.2.11",
+                    "fixedVersion": "16.2.11"
+                  },
+                  {
+                    "id": "GHSA-89xv-2m56-2m9x",
+                    "aliases": [
+                      "CVE-2026-64649"
+                    ],
+                    "url": "https://github.com/vercel/next.js/security/advisories/GHSA-89xv-2m56-2m9x",
+                    "severity": "high",
+                    "affectedRange": ">=14.1.1 <15.5.21 || >=16.0.0 <16.2.11",
+                    "fixedVersion": "16.2.11"
+                  },
+                  {
+                    "id": "GHSA-955p-x3mx-jcvp",
+                    "aliases": [
+                      "CVE-2026-64643"
+                    ],
+                    "url": "https://github.com/vercel/next.js/security/advisories/GHSA-955p-x3mx-jcvp",
+                    "severity": "medium",
+                    "affectedRange": ">=13.0.0 <15.5.21 || >=16.0.0 <16.2.11",
+                    "fixedVersion": "16.2.11"
+                  },
+                  {
+                    "id": "GHSA-m99w-x7hq-7vfj",
+                    "aliases": [
+                      "CVE-2026-64641"
+                    ],
+                    "url": "https://github.com/vercel/next.js/security/advisories/GHSA-m99w-x7hq-7vfj",
+                    "severity": "high",
+                    "affectedRange": ">=13.0.0 <15.5.21 || >=16.0.0 <16.2.11",
+                    "fixedVersion": "16.2.11"
+                  },
+                  {
+                    "id": "GHSA-p9j2-gv94-2wf4",
+                    "aliases": [
+                      "CVE-2026-64645"
+                    ],
+                    "url": "https://github.com/vercel/next.js/security/advisories/GHSA-p9j2-gv94-2wf4",
+                    "severity": "high",
+                    "affectedRange": ">=12.0.0 <15.5.21 || >=16.0.0 <16.2.11",
+                    "fixedVersion": "16.2.11"
+                  },
+                  {
+                    "id": "GHSA-q8wf-6r8g-63ch",
+                    "aliases": [
+                      "CVE-2026-64644"
+                    ],
+                    "url": "https://github.com/vercel/next.js/security/advisories/GHSA-q8wf-6r8g-63ch",
+                    "severity": "medium",
+                    "affectedRange": ">=15.5.0 <15.5.21 || >=16.0.0 <16.2.11",
+                    "fixedVersion": "16.2.11"
+                  }
+                ]
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "radix-ui",
+          "ecosystem": "npm",
+          "latest": "1.6.7",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "dependencies",
+              "declared": "^1.6.0",
+              "resolved": "1.6.0",
+              "update": {
+                "type": "patch",
+                "firstNewerVersion": "1.6.1",
+                "behindSince": "2026-06-30T16:12:36.028Z",
+                "behindDays": 59
+              },
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "react",
+          "ecosystem": "npm",
+          "latest": "19.2.8",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "dependencies",
+              "declared": "19.2.4",
+              "resolved": "19.2.4",
+              "update": {
+                "type": "patch",
+                "firstNewerVersion": "19.2.5",
+                "behindSince": "2026-04-08T18:39:24.455Z",
+                "behindDays": 142
+              },
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "react-dom",
+          "ecosystem": "npm",
+          "latest": "19.2.8",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "dependencies",
+              "declared": "19.2.4",
+              "resolved": "19.2.4",
+              "update": {
+                "type": "patch",
+                "firstNewerVersion": "19.2.5",
+                "behindSince": "2026-04-08T18:39:31.423Z",
+                "behindDays": 142
+              },
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "shadcn",
+          "ecosystem": "npm",
+          "latest": "4.19.0",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "dependencies",
+              "declared": "^4.11.0",
+              "resolved": "4.11.0",
+              "update": {
+                "type": "minor",
+                "firstNewerVersion": "4.11.1",
+                "behindSince": "2026-06-26T07:16:28.719Z",
+                "behindDays": 64
+              },
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "tailwind-merge",
+          "ecosystem": "npm",
+          "latest": "3.6.0",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "dependencies",
+              "declared": "^3.6.0",
+              "resolved": "3.6.0",
+              "update": null,
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "tailwindcss",
+          "ecosystem": "npm",
+          "latest": "4.3.3",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "devDependencies",
+              "declared": "^4",
+              "resolved": "4.3.1",
+              "update": {
+                "type": "patch",
+                "firstNewerVersion": "4.3.2",
+                "behindSince": "2026-06-29T14:30:01.168Z",
+                "behindDays": 60
+              },
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "tw-animate-css",
+          "ecosystem": "npm",
+          "latest": "1.4.0",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "dependencies",
+              "declared": "^1.4.0",
+              "resolved": "1.4.0",
+              "update": null,
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        },
+        {
+          "name": "typescript",
+          "ecosystem": "npm",
+          "latest": "7.0.2",
+          "usages": [
+            {
+              "workspaceId": "studyzone",
+              "section": "devDependencies",
+              "declared": "^5",
+              "resolved": "5.9.3",
+              "update": {
+                "type": "major",
+                "firstNewerVersion": "6.0.2",
+                "behindSince": "2026-03-23T16:14:45.521Z",
+                "behindDays": 158
+              },
+              "deprecation": {
+                "isDeprecated": false,
+                "message": null
+              },
+              "security": {
+                "vulnerable": false,
+                "advisories": []
+              }
+            }
+          ],
+          "versionMismatch": {
+            "declared": false,
+            "resolved": false
+          }
+        }
+      ],
+      "summary": {
+        "externalDependencyCount": 20,
+        "externalUsageCount": 20,
+        "availableUpdateCount": 16,
+        "majorUpdateCount": 4,
+        "routineUpdateCount": 11,
+        "vulnerableUsageCount": 1,
+        "deprecatedUsageCount": 1,
+        "declaredVersionMismatchCount": 0,
+        "resolvedVersionMismatchCount": 0
+      }
+    }
+  ]
+}

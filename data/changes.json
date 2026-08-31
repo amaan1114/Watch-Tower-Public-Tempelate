@@ -1,12 +1,19 @@
 {
   "schemaVersion": 1,
-  "from": "2026-08-29T11:01:54.158Z",
-  "to": "2026-08-30T08:27:29.549Z",
+  "from": "2026-08-30T08:27:29.549Z",
+  "to": "2026-08-31T08:47:45.804Z",
   "baseline": false,
   "projects": [
     {
       "id": "studyzone",
-      "events": []
+      "events": [
+        {
+          "type": "new-package-release",
+          "package": "lucide-react",
+          "previousLatest": "1.37.0",
+          "latest": "1.38.0"
+        }
+      ]
     }
   ]
 }

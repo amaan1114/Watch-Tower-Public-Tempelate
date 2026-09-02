@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "from": "2026-08-31T08:47:45.804Z",
-  "to": "2026-09-01T07:55:21.002Z",
+  "from": "2026-09-01T07:55:21.002Z",
+  "to": "2026-09-02T07:14:32.292Z",
   "baseline": false,
   "projects": [
     {
@@ -9,21 +9,15 @@
       "events": [
         {
           "type": "new-package-release",
-          "package": "eslint-config-next",
-          "previousLatest": "16.3.3",
-          "latest": "16.3.4"
+          "package": "@types/node",
+          "previousLatest": "26.4.0",
+          "latest": "26.4.1"
         },
         {
           "type": "new-package-release",
-          "package": "next",
-          "previousLatest": "16.3.3",
-          "latest": "16.3.4"
-        },
-        {
-          "type": "new-package-release",
-          "package": "shadcn",
-          "previousLatest": "4.19.0",
-          "latest": "4.19.1"
+          "package": "lucide-react",
+          "previousLatest": "1.38.0",
+          "latest": "1.39.0"
         }
       ]
     }

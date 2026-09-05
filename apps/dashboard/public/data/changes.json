@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "from": "2026-09-02T07:14:32.292Z",
-  "to": "2026-09-03T07:18:02.392Z",
+  "from": "2026-09-03T07:18:02.392Z",
+  "to": "2026-09-05T07:02:30.978Z",
   "baseline": false,
   "projects": [
     {
@@ -9,15 +9,27 @@
       "events": [
         {
           "type": "new-package-release",
-          "package": "framer-motion",
-          "previousLatest": "13.1.1",
-          "latest": "13.2.0"
+          "package": "@types/react-dom",
+          "previousLatest": "19.2.5",
+          "latest": "19.2.7"
+        },
+        {
+          "type": "new-package-release",
+          "package": "eslint",
+          "previousLatest": "10.9.1",
+          "latest": "10.10.0"
+        },
+        {
+          "type": "new-package-release",
+          "package": "lucide-react",
+          "previousLatest": "1.39.0",
+          "latest": "1.41.0"
         },
         {
           "type": "new-package-release",
           "package": "shadcn",
-          "previousLatest": "4.19.1",
-          "latest": "4.20.1"
+          "previousLatest": "4.20.1",
+          "latest": "4.21.0"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "scannedAt": "2026-09-07T07:27:12.931Z",
+  "scannedAt": "2026-09-08T07:21:22.047Z",
   "projects": [
     {
       "id": "studyzone",
@@ -39,7 +39,7 @@
                 "type": "patch",
                 "firstNewerVersion": "4.3.2",
                 "behindSince": "2026-06-29T14:30:17.032Z",
-                "behindDays": 69
+                "behindDays": 70
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -59,7 +59,7 @@
         {
           "name": "@types/node",
           "ecosystem": "npm",
-          "latest": "26.4.1",
+          "latest": "26.5.0",
           "usages": [
             {
               "workspaceId": "studyzone",
@@ -70,7 +70,7 @@
                 "type": "major",
                 "firstNewerVersion": "22.0.0",
                 "behindSince": "2024-07-28T10:07:17.761Z",
-                "behindDays": 770
+                "behindDays": 771
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -101,7 +101,7 @@
                 "type": "patch",
                 "firstNewerVersion": "19.2.18",
                 "behindSince": "2026-07-30T21:54:03.456Z",
-                "behindDays": 38
+                "behindDays": 39
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -132,7 +132,7 @@
                 "type": "patch",
                 "firstNewerVersion": "19.2.4",
                 "behindSince": "2026-07-30T21:53:05.684Z",
-                "behindDays": 38
+                "behindDays": 39
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -215,7 +215,7 @@
                 "type": "major",
                 "firstNewerVersion": "9.39.5",
                 "behindSince": "2026-07-10T20:41:47.507Z",
-                "behindDays": 58
+                "behindDays": 59
               },
               "deprecation": {
                 "isDeprecated": true,
@@ -246,7 +246,7 @@
                 "type": "minor",
                 "firstNewerVersion": "16.2.10",
                 "behindSince": "2026-07-01T20:12:41.832Z",
-                "behindDays": 67
+                "behindDays": 68
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -277,7 +277,7 @@
                 "type": "major",
                 "firstNewerVersion": "12.41.0",
                 "behindSince": "2026-06-23T14:41:41.334Z",
-                "behindDays": 75
+                "behindDays": 76
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -308,7 +308,7 @@
                 "type": "patch",
                 "firstNewerVersion": "1.3.24",
                 "behindSince": "2026-06-24T22:29:07.354Z",
-                "behindDays": 74
+                "behindDays": 75
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -328,7 +328,7 @@
         {
           "name": "lucide-react",
           "ecosystem": "npm",
-          "latest": "1.41.0",
+          "latest": "1.42.0",
           "usages": [
             {
               "workspaceId": "studyzone",
@@ -339,7 +339,7 @@
                 "type": "minor",
                 "firstNewerVersion": "1.19.0",
                 "behindSince": "2026-06-16T13:17:46.776Z",
-                "behindDays": 82
+                "behindDays": 83
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -370,7 +370,7 @@
                 "type": "minor",
                 "firstNewerVersion": "16.2.10",
                 "behindSince": "2026-07-01T20:13:14.041Z",
-                "behindDays": 67
+                "behindDays": 68
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -492,7 +492,7 @@
                 "type": "patch",
                 "firstNewerVersion": "1.6.1",
                 "behindSince": "2026-06-30T16:12:36.028Z",
-                "behindDays": 68
+                "behindDays": 69
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -523,7 +523,7 @@
                 "type": "patch",
                 "firstNewerVersion": "19.2.5",
                 "behindSince": "2026-04-08T18:39:24.455Z",
-                "behindDays": 151
+                "behindDays": 152
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -554,7 +554,7 @@
                 "type": "patch",
                 "firstNewerVersion": "19.2.5",
                 "behindSince": "2026-04-08T18:39:31.423Z",
-                "behindDays": 151
+                "behindDays": 152
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -585,7 +585,7 @@
                 "type": "minor",
                 "firstNewerVersion": "4.11.1",
                 "behindSince": "2026-06-26T07:16:28.719Z",
-                "behindDays": 73
+                "behindDays": 74
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -642,7 +642,7 @@
                 "type": "patch",
                 "firstNewerVersion": "4.3.2",
                 "behindSince": "2026-06-29T14:30:01.168Z",
-                "behindDays": 69
+                "behindDays": 70
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -699,7 +699,7 @@
                 "type": "major",
                 "firstNewerVersion": "6.0.2",
                 "behindSince": "2026-03-23T16:14:45.521Z",
-                "behindDays": 167
+                "behindDays": 168
               },
               "deprecation": {
                 "isDeprecated": false,

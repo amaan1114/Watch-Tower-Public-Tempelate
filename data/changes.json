@@ -1,12 +1,25 @@
 {
   "schemaVersion": 1,
-  "from": "2026-09-06T07:13:48.281Z",
-  "to": "2026-09-07T07:27:12.931Z",
+  "from": "2026-09-07T07:27:12.931Z",
+  "to": "2026-09-08T07:21:22.047Z",
   "baseline": false,
   "projects": [
     {
       "id": "studyzone",
-      "events": []
+      "events": [
+        {
+          "type": "new-package-release",
+          "package": "@types/node",
+          "previousLatest": "26.4.1",
+          "latest": "26.5.0"
+        },
+        {
+          "type": "new-package-release",
+          "package": "lucide-react",
+          "previousLatest": "1.41.0",
+          "latest": "1.42.0"
+        }
+      ]
     }
   ]
 }

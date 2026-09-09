@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "from": "2026-09-07T07:27:12.931Z",
-  "to": "2026-09-08T07:21:22.047Z",
+  "from": "2026-09-08T07:21:22.047Z",
+  "to": "2026-09-09T07:29:53.695Z",
   "baseline": false,
   "projects": [
     {
@@ -9,15 +9,23 @@
       "events": [
         {
           "type": "new-package-release",
-          "package": "@types/node",
-          "previousLatest": "26.4.1",
-          "latest": "26.5.0"
+          "package": "lucide-react",
+          "previousLatest": "1.42.0",
+          "latest": "1.43.0"
         },
         {
-          "type": "new-package-release",
-          "package": "lucide-react",
-          "previousLatest": "1.41.0",
-          "latest": "1.42.0"
+          "package": "next",
+          "workspaceId": "studyzone",
+          "section": "dependencies",
+          "type": "vulnerability-discovered",
+          "advisoryId": "GHSA-2xp9-vwfh-vxw4"
+        },
+        {
+          "package": "next",
+          "workspaceId": "studyzone",
+          "section": "dependencies",
+          "type": "vulnerability-discovered",
+          "advisoryId": "GHSA-p293-qw3h-jr36"
         }
       ]
     }

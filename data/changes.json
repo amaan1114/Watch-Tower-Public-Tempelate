@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "from": "2026-09-08T07:21:22.047Z",
-  "to": "2026-09-09T07:29:53.695Z",
+  "from": "2026-09-09T07:29:53.695Z",
+  "to": "2026-09-10T07:25:41.039Z",
   "baseline": false,
   "projects": [
     {
@@ -9,23 +9,33 @@
       "events": [
         {
           "type": "new-package-release",
-          "package": "lucide-react",
-          "previousLatest": "1.42.0",
-          "latest": "1.43.0"
+          "package": "@types/node",
+          "previousLatest": "26.5.0",
+          "latest": "22.20.2"
         },
         {
-          "package": "next",
-          "workspaceId": "studyzone",
-          "section": "dependencies",
-          "type": "vulnerability-discovered",
-          "advisoryId": "GHSA-2xp9-vwfh-vxw4"
+          "type": "new-package-release",
+          "package": "@types/react",
+          "previousLatest": "19.2.18",
+          "latest": "19.3.0"
         },
         {
-          "package": "next",
-          "workspaceId": "studyzone",
-          "section": "dependencies",
-          "type": "vulnerability-discovered",
-          "advisoryId": "GHSA-p293-qw3h-jr36"
+          "type": "new-package-release",
+          "package": "@types/react-dom",
+          "previousLatest": "19.2.7",
+          "latest": "19.3.0"
+        },
+        {
+          "type": "new-package-release",
+          "package": "react",
+          "previousLatest": "19.2.8",
+          "latest": "19.3.0"
+        },
+        {
+          "type": "new-package-release",
+          "package": "react-dom",
+          "previousLatest": "19.2.8",
+          "latest": "19.3.0"
         }
       ]
     }

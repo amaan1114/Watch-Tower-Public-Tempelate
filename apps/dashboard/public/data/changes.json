@@ -1,25 +1,12 @@
 {
   "schemaVersion": 1,
-  "from": "2026-09-12T07:16:38.478Z",
-  "to": "2026-09-13T07:34:40.158Z",
+  "from": "2026-09-13T07:34:40.158Z",
+  "to": "2026-09-14T08:01:12.605Z",
   "baseline": false,
   "projects": [
     {
       "id": "studyzone",
-      "events": [
-        {
-          "type": "new-package-release",
-          "package": "@types/node",
-          "previousLatest": "22.20.2",
-          "latest": "26.5.1"
-        },
-        {
-          "type": "new-package-release",
-          "package": "tailwind-merge",
-          "previousLatest": "3.6.0",
-          "latest": "3.7.0"
-        }
-      ]
+      "events": []
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "from": "2026-09-17T07:53:26.970Z",
-  "to": "2026-09-18T07:32:00.679Z",
+  "from": "2026-09-18T07:32:00.679Z",
+  "to": "2026-09-19T07:27:37.342Z",
   "baseline": false,
   "projects": [
     {
@@ -10,8 +10,14 @@
         {
           "type": "new-package-release",
           "package": "@types/node",
-          "previousLatest": "22.20.3",
-          "latest": "26.6.1"
+          "previousLatest": "26.6.1",
+          "latest": "26.6.2"
+        },
+        {
+          "type": "new-package-release",
+          "package": "eslint",
+          "previousLatest": "10.10.0",
+          "latest": "10.11.0"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "scannedAt": "2026-09-19T07:27:37.342Z",
+  "scannedAt": "2026-09-20T07:51:22.043Z",
   "projects": [
     {
       "id": "studyzone",
@@ -39,7 +39,7 @@
                 "type": "patch",
                 "firstNewerVersion": "4.3.2",
                 "behindSince": "2026-06-29T14:30:17.032Z",
-                "behindDays": 81
+                "behindDays": 82
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -70,7 +70,7 @@
                 "type": "major",
                 "firstNewerVersion": "22.0.0",
                 "behindSince": "2024-07-28T10:07:17.761Z",
-                "behindDays": 782
+                "behindDays": 783
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -101,7 +101,7 @@
                 "type": "minor",
                 "firstNewerVersion": "19.2.18",
                 "behindSince": "2026-07-30T21:54:03.456Z",
-                "behindDays": 50
+                "behindDays": 51
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -132,7 +132,7 @@
                 "type": "minor",
                 "firstNewerVersion": "19.2.4",
                 "behindSince": "2026-07-30T21:53:05.684Z",
-                "behindDays": 50
+                "behindDays": 51
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -215,7 +215,7 @@
                 "type": "major",
                 "firstNewerVersion": "9.39.5",
                 "behindSince": "2026-07-10T20:41:47.507Z",
-                "behindDays": 70
+                "behindDays": 71
               },
               "deprecation": {
                 "isDeprecated": true,
@@ -246,7 +246,7 @@
                 "type": "minor",
                 "firstNewerVersion": "16.2.10",
                 "behindSince": "2026-07-01T20:12:41.832Z",
-                "behindDays": 79
+                "behindDays": 80
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -277,7 +277,7 @@
                 "type": "major",
                 "firstNewerVersion": "12.41.0",
                 "behindSince": "2026-06-23T14:41:41.334Z",
-                "behindDays": 87
+                "behindDays": 88
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -308,7 +308,7 @@
                 "type": "patch",
                 "firstNewerVersion": "1.3.24",
                 "behindSince": "2026-06-24T22:29:07.354Z",
-                "behindDays": 86
+                "behindDays": 87
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -339,7 +339,7 @@
                 "type": "minor",
                 "firstNewerVersion": "1.19.0",
                 "behindSince": "2026-06-16T13:17:46.776Z",
-                "behindDays": 94
+                "behindDays": 95
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -370,7 +370,7 @@
                 "type": "minor",
                 "firstNewerVersion": "16.2.10",
                 "behindSince": "2026-07-01T20:13:14.041Z",
-                "behindDays": 79
+                "behindDays": 80
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -510,7 +510,7 @@
                 "type": "patch",
                 "firstNewerVersion": "1.6.1",
                 "behindSince": "2026-06-30T16:12:36.028Z",
-                "behindDays": 80
+                "behindDays": 81
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -541,7 +541,7 @@
                 "type": "minor",
                 "firstNewerVersion": "19.2.5",
                 "behindSince": "2026-04-08T18:39:24.455Z",
-                "behindDays": 163
+                "behindDays": 164
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -572,7 +572,7 @@
                 "type": "minor",
                 "firstNewerVersion": "19.2.5",
                 "behindSince": "2026-04-08T18:39:31.423Z",
-                "behindDays": 163
+                "behindDays": 164
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -603,7 +603,7 @@
                 "type": "minor",
                 "firstNewerVersion": "4.11.1",
                 "behindSince": "2026-06-26T07:16:28.719Z",
-                "behindDays": 85
+                "behindDays": 86
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -634,7 +634,7 @@
                 "type": "minor",
                 "firstNewerVersion": "3.7.0",
                 "behindSince": "2026-09-12T20:10:15.257Z",
-                "behindDays": 6
+                "behindDays": 7
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -665,7 +665,7 @@
                 "type": "patch",
                 "firstNewerVersion": "4.3.2",
                 "behindSince": "2026-06-29T14:30:01.168Z",
-                "behindDays": 81
+                "behindDays": 82
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -722,7 +722,7 @@
                 "type": "major",
                 "firstNewerVersion": "6.0.2",
                 "behindSince": "2026-03-23T16:14:45.521Z",
-                "behindDays": 179
+                "behindDays": 180
               },
               "deprecation": {
                 "isDeprecated": false,

@@ -376,6 +376,21 @@
           "declaredVersionMismatchCount": 0,
           "resolvedVersionMismatchCount": 0
         }
+      },
+      {
+        "date": "2026-09-24",
+        "scannedAt": "2026-09-24T07:43:16.377Z",
+        "summary": {
+          "externalDependencyCount": 20,
+          "externalUsageCount": 20,
+          "availableUpdateCount": 17,
+          "majorUpdateCount": 4,
+          "routineUpdateCount": 12,
+          "vulnerableUsageCount": 1,
+          "deprecatedUsageCount": 1,
+          "declaredVersionMismatchCount": 0,
+          "resolvedVersionMismatchCount": 0
+        }
       }
     ]
   }

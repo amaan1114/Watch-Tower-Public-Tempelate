@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "from": "2026-09-23T07:53:11.317Z",
-  "to": "2026-09-24T07:43:16.377Z",
+  "from": "2026-09-24T07:43:16.377Z",
+  "to": "2026-09-25T08:03:09.066Z",
   "baseline": false,
   "projects": [
     {
@@ -10,14 +10,8 @@
         {
           "type": "new-package-release",
           "package": "framer-motion",
-          "previousLatest": "13.4.1",
-          "latest": "13.4.2"
-        },
-        {
-          "type": "new-package-release",
-          "package": "lucide-react",
-          "previousLatest": "1.47.0",
-          "latest": "1.48.0"
+          "previousLatest": "13.4.2",
+          "latest": "13.4.3"
         }
       ]
     }

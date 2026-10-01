@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "from": "2026-09-29T08:49:39.043Z",
-  "to": "2026-09-30T08:49:14.060Z",
+  "from": "2026-09-30T08:49:14.060Z",
+  "to": "2026-10-01T09:13:34.043Z",
   "baseline": false,
   "projects": [
     {
@@ -10,26 +10,21 @@
         {
           "type": "new-package-release",
           "package": "eslint-config-next",
-          "previousLatest": "16.3.6",
-          "latest": "16.3.7"
+          "previousLatest": "16.3.7",
+          "latest": "16.3.8"
         },
         {
-          "type": "new-package-release",
-          "package": "framer-motion",
-          "previousLatest": "13.4.5",
-          "latest": "13.4.6"
-        },
-        {
-          "type": "new-package-release",
-          "package": "lucide-react",
-          "previousLatest": "1.48.0",
-          "latest": "1.49.0"
+          "package": "next",
+          "workspaceId": "studyzone",
+          "section": "dependencies",
+          "type": "vulnerability-discovered",
+          "advisoryId": "GHSA-vcvr-r3jv-pc5j"
         },
         {
           "type": "new-package-release",
           "package": "next",
-          "previousLatest": "16.3.6",
-          "latest": "16.3.7"
+          "previousLatest": "16.3.7",
+          "latest": "16.3.8"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "scannedAt": "2026-09-30T08:49:14.060Z",
+  "scannedAt": "2026-10-01T09:13:34.043Z",
   "projects": [
     {
       "id": "studyzone",
@@ -39,7 +39,7 @@
                 "type": "patch",
                 "firstNewerVersion": "4.3.2",
                 "behindSince": "2026-06-29T14:30:17.032Z",
-                "behindDays": 92
+                "behindDays": 93
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -70,7 +70,7 @@
                 "type": "major",
                 "firstNewerVersion": "22.0.0",
                 "behindSince": "2024-07-28T10:07:17.761Z",
-                "behindDays": 793
+                "behindDays": 794
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -101,7 +101,7 @@
                 "type": "minor",
                 "firstNewerVersion": "19.2.18",
                 "behindSince": "2026-07-30T21:54:03.456Z",
-                "behindDays": 61
+                "behindDays": 62
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -132,7 +132,7 @@
                 "type": "minor",
                 "firstNewerVersion": "19.2.4",
                 "behindSince": "2026-07-30T21:53:05.684Z",
-                "behindDays": 61
+                "behindDays": 62
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -215,7 +215,7 @@
                 "type": "major",
                 "firstNewerVersion": "9.39.5",
                 "behindSince": "2026-07-10T20:41:47.507Z",
-                "behindDays": 81
+                "behindDays": 82
               },
               "deprecation": {
                 "isDeprecated": true,
@@ -235,7 +235,7 @@
         {
           "name": "eslint-config-next",
           "ecosystem": "npm",
-          "latest": "16.3.7",
+          "latest": "16.3.8",
           "usages": [
             {
               "workspaceId": "studyzone",
@@ -246,7 +246,7 @@
                 "type": "minor",
                 "firstNewerVersion": "16.2.10",
                 "behindSince": "2026-07-01T20:12:41.832Z",
-                "behindDays": 90
+                "behindDays": 91
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -277,7 +277,7 @@
                 "type": "major",
                 "firstNewerVersion": "12.41.0",
                 "behindSince": "2026-06-23T14:41:41.334Z",
-                "behindDays": 98
+                "behindDays": 99
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -308,7 +308,7 @@
                 "type": "patch",
                 "firstNewerVersion": "1.3.24",
                 "behindSince": "2026-06-24T22:29:07.354Z",
-                "behindDays": 97
+                "behindDays": 98
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -339,7 +339,7 @@
                 "type": "minor",
                 "firstNewerVersion": "1.19.0",
                 "behindSince": "2026-06-16T13:17:46.776Z",
-                "behindDays": 105
+                "behindDays": 106
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -359,7 +359,7 @@
         {
           "name": "next",
           "ecosystem": "npm",
-          "latest": "16.3.7",
+          "latest": "16.3.8",
           "usages": [
             {
               "workspaceId": "studyzone",
@@ -370,7 +370,7 @@
                 "type": "minor",
                 "firstNewerVersion": "16.2.10",
                 "behindSince": "2026-07-01T20:13:14.041Z",
-                "behindDays": 90
+                "behindDays": 91
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -486,6 +486,14 @@
                     "severity": "medium",
                     "affectedRange": ">=15.5.0 <15.5.21 || >=16.0.0 <16.2.11",
                     "fixedVersion": "16.2.11"
+                  },
+                  {
+                    "id": "GHSA-vcvr-r3jv-pc5j",
+                    "aliases": [],
+                    "url": "https://github.com/vercel/next.js/security/advisories/GHSA-vcvr-r3jv-pc5j",
+                    "severity": "critical",
+                    "affectedRange": ">=16.2.0 <16.3.6",
+                    "fixedVersion": "16.3.6"
                   }
                 ]
               }
@@ -510,7 +518,7 @@
                 "type": "patch",
                 "firstNewerVersion": "1.6.1",
                 "behindSince": "2026-06-30T16:12:36.028Z",
-                "behindDays": 91
+                "behindDays": 92
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -541,7 +549,7 @@
                 "type": "minor",
                 "firstNewerVersion": "19.2.5",
                 "behindSince": "2026-04-08T18:39:24.455Z",
-                "behindDays": 174
+                "behindDays": 175
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -572,7 +580,7 @@
                 "type": "minor",
                 "firstNewerVersion": "19.2.5",
                 "behindSince": "2026-04-08T18:39:31.423Z",
-                "behindDays": 174
+                "behindDays": 175
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -603,7 +611,7 @@
                 "type": "minor",
                 "firstNewerVersion": "4.11.1",
                 "behindSince": "2026-06-26T07:16:28.719Z",
-                "behindDays": 96
+                "behindDays": 97
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -634,7 +642,7 @@
                 "type": "minor",
                 "firstNewerVersion": "3.7.0",
                 "behindSince": "2026-09-12T20:10:15.257Z",
-                "behindDays": 17
+                "behindDays": 18
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -665,7 +673,7 @@
                 "type": "patch",
                 "firstNewerVersion": "4.3.2",
                 "behindSince": "2026-06-29T14:30:01.168Z",
-                "behindDays": 92
+                "behindDays": 93
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -722,7 +730,7 @@
                 "type": "major",
                 "firstNewerVersion": "6.0.2",
                 "behindSince": "2026-03-23T16:14:45.521Z",
-                "behindDays": 190
+                "behindDays": 191
               },
               "deprecation": {
                 "isDeprecated": false,

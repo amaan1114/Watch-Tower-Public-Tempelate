@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "scannedAt": "2026-10-07T09:01:11.066Z",
+  "scannedAt": "2026-10-08T09:17:05.504Z",
   "projects": [
     {
       "id": "studyzone",
@@ -39,7 +39,7 @@
                 "type": "patch",
                 "firstNewerVersion": "4.3.2",
                 "behindSince": "2026-06-29T14:30:17.032Z",
-                "behindDays": 99
+                "behindDays": 100
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -70,7 +70,7 @@
                 "type": "major",
                 "firstNewerVersion": "22.0.0",
                 "behindSince": "2024-07-28T10:07:17.761Z",
-                "behindDays": 800
+                "behindDays": 801
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -101,7 +101,7 @@
                 "type": "minor",
                 "firstNewerVersion": "19.2.18",
                 "behindSince": "2026-07-30T21:54:03.456Z",
-                "behindDays": 68
+                "behindDays": 69
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -132,7 +132,7 @@
                 "type": "minor",
                 "firstNewerVersion": "19.2.4",
                 "behindSince": "2026-07-30T21:53:05.684Z",
-                "behindDays": 68
+                "behindDays": 69
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -215,7 +215,7 @@
                 "type": "major",
                 "firstNewerVersion": "9.39.5",
                 "behindSince": "2026-07-10T20:41:47.507Z",
-                "behindDays": 88
+                "behindDays": 89
               },
               "deprecation": {
                 "isDeprecated": true,
@@ -246,7 +246,7 @@
                 "type": "minor",
                 "firstNewerVersion": "16.2.10",
                 "behindSince": "2026-07-01T20:12:41.832Z",
-                "behindDays": 97
+                "behindDays": 98
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -277,7 +277,7 @@
                 "type": "major",
                 "firstNewerVersion": "12.41.0",
                 "behindSince": "2026-06-23T14:41:41.334Z",
-                "behindDays": 105
+                "behindDays": 106
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -308,7 +308,7 @@
                 "type": "patch",
                 "firstNewerVersion": "1.3.24",
                 "behindSince": "2026-06-24T22:29:07.354Z",
-                "behindDays": 104
+                "behindDays": 105
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -328,7 +328,7 @@
         {
           "name": "lucide-react",
           "ecosystem": "npm",
-          "latest": "1.52.0",
+          "latest": "1.53.0",
           "usages": [
             {
               "workspaceId": "studyzone",
@@ -339,7 +339,7 @@
                 "type": "minor",
                 "firstNewerVersion": "1.19.0",
                 "behindSince": "2026-06-16T13:17:46.776Z",
-                "behindDays": 112
+                "behindDays": 113
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -370,7 +370,7 @@
                 "type": "minor",
                 "firstNewerVersion": "16.2.10",
                 "behindSince": "2026-07-01T20:13:14.041Z",
-                "behindDays": 97
+                "behindDays": 98
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -386,6 +386,16 @@
                     "severity": "critical",
                     "affectedRange": ">=10.0.0 <15.5.24 || >=16.0.0 <16.3.3",
                     "fixedVersion": "16.3.3"
+                  },
+                  {
+                    "id": "GHSA-39w2-rjm5-chcv",
+                    "aliases": [
+                      "CVE-2026-94486"
+                    ],
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94486",
+                    "severity": "low",
+                    "affectedRange": ">=16.0.0 <16.3.8",
+                    "fixedVersion": "16.3.8"
                   },
                   {
                     "id": "GHSA-4633-3j49-mh5q",
@@ -406,6 +416,16 @@
                     "severity": "medium",
                     "affectedRange": ">=13.0.0 <15.5.21 || >=16.0.0 <16.2.11",
                     "fixedVersion": "16.2.11"
+                  },
+                  {
+                    "id": "GHSA-4jqv-mc3x-m676",
+                    "aliases": [
+                      "CVE-2026-94543"
+                    ],
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94543",
+                    "severity": "medium",
+                    "affectedRange": ">=15.0.0 <15.5.27 || >=16.0.0 <16.3.8",
+                    "fixedVersion": "16.3.8"
                   },
                   {
                     "id": "GHSA-68g3-v927-f742",
@@ -448,6 +468,26 @@
                     "fixedVersion": "16.2.11"
                   },
                   {
+                    "id": "GHSA-cjq9-62q9-8jv4",
+                    "aliases": [
+                      "CVE-2026-94483"
+                    ],
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94483",
+                    "severity": "high",
+                    "affectedRange": ">=16.0.0 <16.3.8",
+                    "fixedVersion": "16.3.8"
+                  },
+                  {
+                    "id": "GHSA-f87g-xv8r-7p7x",
+                    "aliases": [
+                      "CVE-2026-94485"
+                    ],
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94485",
+                    "severity": "medium",
+                    "affectedRange": ">=16.0.0 <16.3.8",
+                    "fixedVersion": "16.3.8"
+                  },
+                  {
                     "id": "GHSA-m99w-x7hq-7vfj",
                     "aliases": [
                       "CVE-2026-64641"
@@ -456,6 +496,16 @@
                     "severity": "high",
                     "affectedRange": ">=13.0.0 <15.5.21 || >=16.0.0 <16.2.11",
                     "fixedVersion": "16.2.11"
+                  },
+                  {
+                    "id": "GHSA-mcj8-r9mp-w47p",
+                    "aliases": [
+                      "CVE-2026-94484"
+                    ],
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94484",
+                    "severity": "medium",
+                    "affectedRange": ">=16.0.0 <16.3.8 || >=15.0.0 <15.5.27",
+                    "fixedVersion": "16.3.8"
                   },
                   {
                     "id": "GHSA-p293-qw3h-jr36",
@@ -518,7 +568,7 @@
                 "type": "minor",
                 "firstNewerVersion": "1.6.1",
                 "behindSince": "2026-06-30T16:12:36.028Z",
-                "behindDays": 98
+                "behindDays": 99
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -549,7 +599,7 @@
                 "type": "minor",
                 "firstNewerVersion": "19.2.5",
                 "behindSince": "2026-04-08T18:39:24.455Z",
-                "behindDays": 181
+                "behindDays": 182
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -580,7 +630,7 @@
                 "type": "minor",
                 "firstNewerVersion": "19.2.5",
                 "behindSince": "2026-04-08T18:39:31.423Z",
-                "behindDays": 181
+                "behindDays": 182
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -600,7 +650,7 @@
         {
           "name": "shadcn",
           "ecosystem": "npm",
-          "latest": "4.21.3",
+          "latest": "4.21.4",
           "usages": [
             {
               "workspaceId": "studyzone",
@@ -611,7 +661,7 @@
                 "type": "minor",
                 "firstNewerVersion": "4.11.1",
                 "behindSince": "2026-06-26T07:16:28.719Z",
-                "behindDays": 103
+                "behindDays": 104
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -642,7 +692,7 @@
                 "type": "minor",
                 "firstNewerVersion": "3.7.0",
                 "behindSince": "2026-09-12T20:10:15.257Z",
-                "behindDays": 24
+                "behindDays": 25
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -673,7 +723,7 @@
                 "type": "patch",
                 "firstNewerVersion": "4.3.2",
                 "behindSince": "2026-06-29T14:30:01.168Z",
-                "behindDays": 99
+                "behindDays": 100
               },
               "deprecation": {
                 "isDeprecated": false,
@@ -730,7 +780,7 @@
                 "type": "major",
                 "firstNewerVersion": "6.0.2",
                 "behindSince": "2026-03-23T16:14:45.521Z",
-                "behindDays": 197
+                "behindDays": 198
               },
               "deprecation": {
                 "isDeprecated": false,

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "from": "2026-10-07T09:01:11.066Z",
-  "to": "2026-10-08T09:17:05.504Z",
+  "from": "2026-10-08T09:17:05.504Z",
+  "to": "2026-10-09T09:24:35.036Z",
   "baseline": false,
   "projects": [
     {
@@ -10,49 +10,8 @@
         {
           "type": "new-package-release",
           "package": "lucide-react",
-          "previousLatest": "1.52.0",
-          "latest": "1.53.0"
-        },
-        {
-          "package": "next",
-          "workspaceId": "studyzone",
-          "section": "dependencies",
-          "type": "vulnerability-discovered",
-          "advisoryId": "GHSA-39w2-rjm5-chcv"
-        },
-        {
-          "package": "next",
-          "workspaceId": "studyzone",
-          "section": "dependencies",
-          "type": "vulnerability-discovered",
-          "advisoryId": "GHSA-4jqv-mc3x-m676"
-        },
-        {
-          "package": "next",
-          "workspaceId": "studyzone",
-          "section": "dependencies",
-          "type": "vulnerability-discovered",
-          "advisoryId": "GHSA-cjq9-62q9-8jv4"
-        },
-        {
-          "package": "next",
-          "workspaceId": "studyzone",
-          "section": "dependencies",
-          "type": "vulnerability-discovered",
-          "advisoryId": "GHSA-f87g-xv8r-7p7x"
-        },
-        {
-          "package": "next",
-          "workspaceId": "studyzone",
-          "section": "dependencies",
-          "type": "vulnerability-discovered",
-          "advisoryId": "GHSA-mcj8-r9mp-w47p"
-        },
-        {
-          "type": "new-package-release",
-          "package": "shadcn",
-          "previousLatest": "4.21.3",
-          "latest": "4.21.4"
+          "previousLatest": "1.53.0",
+          "latest": "1.54.0"
         }
       ]
     }

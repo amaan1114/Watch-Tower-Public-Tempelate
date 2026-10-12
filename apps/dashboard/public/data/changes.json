@@ -1,12 +1,19 @@
 {
   "schemaVersion": 1,
-  "from": "2026-10-10T08:45:46.868Z",
-  "to": "2026-10-11T09:08:15.212Z",
+  "from": "2026-10-11T09:08:15.212Z",
+  "to": "2026-10-12T09:32:34.576Z",
   "baseline": false,
   "projects": [
     {
       "id": "studyzone",
-      "events": []
+      "events": [
+        {
+          "type": "new-package-release",
+          "package": "radix-ui",
+          "previousLatest": "1.7.0",
+          "latest": "1.8.0"
+        }
+      ]
     }
   ]
 }

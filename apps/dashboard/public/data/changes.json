@@ -1,12 +1,25 @@
 {
   "schemaVersion": 1,
-  "from": "2026-10-17T07:06:03.608Z",
-  "to": "2026-10-18T07:20:40.983Z",
+  "from": "2026-10-18T07:20:40.983Z",
+  "to": "2026-10-19T07:59:22.358Z",
   "baseline": false,
   "projects": [
     {
       "id": "studyzone",
-      "events": []
+      "events": [
+        {
+          "type": "new-package-release",
+          "package": "framer-motion",
+          "previousLatest": "14.3.0",
+          "latest": "14.3.1"
+        },
+        {
+          "type": "new-package-release",
+          "package": "shadcn",
+          "previousLatest": "4.22.0",
+          "latest": "4.22.1"
+        }
+      ]
     }
   ]
 }

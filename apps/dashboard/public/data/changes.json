@@ -1,12 +1,40 @@
 {
   "schemaVersion": 1,
-  "from": "2026-10-21T07:53:03.971Z",
-  "to": "2026-10-22T07:49:06.931Z",
+  "from": "2026-10-22T07:49:06.931Z",
+  "to": "2026-10-23T07:48:17.677Z",
   "baseline": false,
   "projects": [
     {
       "id": "studyzone",
-      "events": []
+      "events": [
+        {
+          "type": "new-package-release",
+          "package": "framer-motion",
+          "previousLatest": "14.5.0",
+          "latest": "14.6.0"
+        },
+        {
+          "package": "next",
+          "workspaceId": "studyzone",
+          "section": "dependencies",
+          "type": "vulnerability-discovered",
+          "advisoryId": "GHSA-2464-fhr4-w9xw"
+        },
+        {
+          "package": "next",
+          "workspaceId": "studyzone",
+          "section": "dependencies",
+          "type": "vulnerability-discovered",
+          "advisoryId": "GHSA-673q-mjm6-r5xr"
+        },
+        {
+          "package": "next",
+          "workspaceId": "studyzone",
+          "section": "dependencies",
+          "type": "vulnerability-discovered",
+          "advisoryId": "GHSA-p3m5-59mp-jv5r"
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "from": "2026-10-22T07:49:06.931Z",
-  "to": "2026-10-23T07:48:17.677Z",
+  "from": "2026-10-23T07:48:17.677Z",
+  "to": "2026-10-24T07:29:58.730Z",
   "baseline": false,
   "projects": [
     {
@@ -9,30 +9,15 @@
       "events": [
         {
           "type": "new-package-release",
-          "package": "framer-motion",
-          "previousLatest": "14.5.0",
-          "latest": "14.6.0"
+          "package": "eslint-config-next",
+          "previousLatest": "16.4.2",
+          "latest": "16.4.3"
         },
         {
+          "type": "new-package-release",
           "package": "next",
-          "workspaceId": "studyzone",
-          "section": "dependencies",
-          "type": "vulnerability-discovered",
-          "advisoryId": "GHSA-2464-fhr4-w9xw"
-        },
-        {
-          "package": "next",
-          "workspaceId": "studyzone",
-          "section": "dependencies",
-          "type": "vulnerability-discovered",
-          "advisoryId": "GHSA-673q-mjm6-r5xr"
-        },
-        {
-          "package": "next",
-          "workspaceId": "studyzone",
-          "section": "dependencies",
-          "type": "vulnerability-discovered",
-          "advisoryId": "GHSA-p3m5-59mp-jv5r"
+          "previousLatest": "16.4.2",
+          "latest": "16.4.3"
         }
       ]
     }

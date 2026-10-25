@@ -1,25 +1,12 @@
 {
   "schemaVersion": 1,
-  "from": "2026-10-23T07:48:17.677Z",
-  "to": "2026-10-24T07:29:58.730Z",
+  "from": "2026-10-24T07:29:58.730Z",
+  "to": "2026-10-25T07:43:36.167Z",
   "baseline": false,
   "projects": [
     {
       "id": "studyzone",
-      "events": [
-        {
-          "type": "new-package-release",
-          "package": "eslint-config-next",
-          "previousLatest": "16.4.2",
-          "latest": "16.4.3"
-        },
-        {
-          "type": "new-package-release",
-          "package": "next",
-          "previousLatest": "16.4.2",
-          "latest": "16.4.3"
-        }
-      ]
+      "events": []
     }
   ]
 }

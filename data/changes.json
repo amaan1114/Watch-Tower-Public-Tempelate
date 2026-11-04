@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "from": "2026-11-02T09:45:26.440Z",
-  "to": "2026-11-03T09:48:43.121Z",
+  "from": "2026-11-03T09:48:43.121Z",
+  "to": "2026-11-04T09:36:09.386Z",
   "baseline": false,
   "projects": [
     {
@@ -9,33 +9,27 @@
       "events": [
         {
           "type": "new-package-release",
-          "package": "@tailwindcss/postcss",
-          "previousLatest": "4.3.3",
-          "latest": "4.3.4"
+          "package": "eslint-config-next",
+          "previousLatest": "16.4.4",
+          "latest": "16.4.5"
         },
         {
           "type": "new-package-release",
-          "package": "eslint-config-next",
-          "previousLatest": "16.4.3",
-          "latest": "16.4.4"
+          "package": "framer-motion",
+          "previousLatest": "14.9.0",
+          "latest": "14.9.1"
         },
         {
           "type": "new-package-release",
           "package": "lucide-react",
-          "previousLatest": "1.66.0",
-          "latest": "1.67.0"
+          "previousLatest": "1.67.0",
+          "latest": "1.68.0"
         },
         {
           "type": "new-package-release",
           "package": "next",
-          "previousLatest": "16.4.3",
-          "latest": "16.4.4"
-        },
-        {
-          "type": "new-package-release",
-          "package": "tailwindcss",
-          "previousLatest": "4.3.3",
-          "latest": "4.3.4"
+          "previousLatest": "16.4.4",
+          "latest": "16.4.5"
         }
       ]
     }

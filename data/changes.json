@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "from": "2026-11-04T09:36:09.386Z",
-  "to": "2026-11-05T09:42:39.619Z",
+  "from": "2026-11-05T09:42:39.619Z",
+  "to": "2026-11-06T09:37:00.401Z",
   "baseline": false,
   "projects": [
     {
@@ -10,8 +10,8 @@
         {
           "type": "new-package-release",
           "package": "lucide-react",
-          "previousLatest": "1.68.0",
-          "latest": "1.69.0"
+          "previousLatest": "1.69.0",
+          "latest": "1.70.0"
         }
       ]
     }

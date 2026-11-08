@@ -1,31 +1,12 @@
 {
   "schemaVersion": 1,
-  "from": "2026-11-06T09:37:00.401Z",
-  "to": "2026-11-07T09:01:13.320Z",
+  "from": "2026-11-07T09:01:13.320Z",
+  "to": "2026-11-08T09:18:09.437Z",
   "baseline": false,
   "projects": [
     {
       "id": "studyzone",
-      "events": [
-        {
-          "type": "new-package-release",
-          "package": "@tailwindcss/postcss",
-          "previousLatest": "4.3.4",
-          "latest": "4.3.5"
-        },
-        {
-          "type": "new-package-release",
-          "package": "framer-motion",
-          "previousLatest": "14.9.1",
-          "latest": "14.10.1"
-        },
-        {
-          "type": "new-package-release",
-          "package": "tailwindcss",
-          "previousLatest": "4.3.4",
-          "latest": "4.3.5"
-        }
-      ]
+      "events": []
     }
   ]
 }

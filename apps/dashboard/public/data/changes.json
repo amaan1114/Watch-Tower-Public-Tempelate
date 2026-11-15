@@ -1,31 +1,12 @@
 {
   "schemaVersion": 1,
-  "from": "2026-11-13T09:49:40.422Z",
-  "to": "2026-11-14T09:12:55.357Z",
+  "from": "2026-11-14T09:12:55.357Z",
+  "to": "2026-11-15T09:42:32.358Z",
   "baseline": false,
   "projects": [
     {
       "id": "studyzone",
-      "events": [
-        {
-          "type": "new-package-release",
-          "package": "eslint",
-          "previousLatest": "10.14.0",
-          "latest": "10.15.0"
-        },
-        {
-          "type": "new-package-release",
-          "package": "framer-motion",
-          "previousLatest": "14.13.0",
-          "latest": "14.14.0"
-        },
-        {
-          "type": "new-package-release",
-          "package": "lucide-react",
-          "previousLatest": "1.72.0",
-          "latest": "1.73.0"
-        }
-      ]
+      "events": []
     }
   ]
 }

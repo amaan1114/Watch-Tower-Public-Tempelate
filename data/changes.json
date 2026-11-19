@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "from": "2026-11-17T10:56:04.360Z",
-  "to": "2026-11-18T10:27:44.959Z",
+  "from": "2026-11-18T10:27:44.959Z",
+  "to": "2026-11-19T10:35:00.981Z",
   "baseline": false,
   "projects": [
     {
@@ -10,15 +10,8 @@
         {
           "type": "new-package-release",
           "package": "lucide-react",
-          "previousLatest": "1.74.0",
-          "latest": "1.75.0"
-        },
-        {
-          "package": "next",
-          "workspaceId": "studyzone",
-          "section": "dependencies",
-          "type": "vulnerability-discovered",
-          "advisoryId": "GHSA-vc7v-qv4w-wrv8"
+          "previousLatest": "1.75.0",
+          "latest": "1.76.0"
         }
       ]
     }

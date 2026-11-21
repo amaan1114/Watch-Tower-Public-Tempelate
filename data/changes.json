@@ -1,53 +1,12 @@
 {
   "schemaVersion": 1,
-  "from": "2026-11-19T10:35:00.981Z",
-  "to": "2026-11-20T10:15:36.076Z",
+  "from": "2026-11-20T10:15:36.076Z",
+  "to": "2026-11-21T10:00:56.169Z",
   "baseline": false,
   "projects": [
     {
       "id": "studyzone",
-      "events": [
-        {
-          "type": "new-package-release",
-          "package": "lucide-react",
-          "previousLatest": "1.76.0",
-          "latest": "1.77.0"
-        },
-        {
-          "package": "next",
-          "workspaceId": "studyzone",
-          "section": "dependencies",
-          "type": "vulnerability-discovered",
-          "advisoryId": "GHSA-7qx7-33qx-rqx2"
-        },
-        {
-          "package": "next",
-          "workspaceId": "studyzone",
-          "section": "dependencies",
-          "type": "vulnerability-discovered",
-          "advisoryId": "GHSA-f3mh-rxg3-f5g2"
-        },
-        {
-          "package": "next",
-          "workspaceId": "studyzone",
-          "section": "dependencies",
-          "type": "vulnerability-discovered",
-          "advisoryId": "GHSA-pc58-hwjq-p385"
-        },
-        {
-          "package": "next",
-          "workspaceId": "studyzone",
-          "section": "dependencies",
-          "type": "vulnerability-discovered",
-          "advisoryId": "GHSA-rhh4-g77r-r9qj"
-        },
-        {
-          "type": "new-package-release",
-          "package": "tailwind-merge",
-          "previousLatest": "3.7.0",
-          "latest": "3.7.1"
-        }
-      ]
+      "events": []
     }
   ]
 }

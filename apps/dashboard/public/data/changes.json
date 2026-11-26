@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "from": "2026-11-24T12:46:27.948Z",
-  "to": "2026-11-25T11:32:24.607Z",
+  "from": "2026-11-25T11:32:24.607Z",
+  "to": "2026-11-26T11:15:06.576Z",
   "baseline": false,
   "projects": [
     {
@@ -10,20 +10,26 @@
         {
           "type": "new-package-release",
           "package": "@types/node",
-          "previousLatest": "26.6.6",
-          "latest": "26.6.10"
+          "previousLatest": "26.6.10",
+          "latest": "26.6.11"
         },
         {
           "type": "new-package-release",
           "package": "@types/react",
-          "previousLatest": "19.3.0",
-          "latest": "19.3.2"
+          "previousLatest": "19.3.2",
+          "latest": "19.3.3"
         },
         {
           "type": "new-package-release",
           "package": "lucide-react",
-          "previousLatest": "1.79.0",
-          "latest": "1.80.0"
+          "previousLatest": "1.80.0",
+          "latest": "1.81.0"
+        },
+        {
+          "type": "new-package-release",
+          "package": "shadcn",
+          "previousLatest": "4.23.0",
+          "latest": "4.23.1"
         }
       ]
     }

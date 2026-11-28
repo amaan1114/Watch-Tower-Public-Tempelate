@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "from": "2026-11-26T11:15:06.576Z",
-  "to": "2026-11-27T11:08:37.263Z",
+  "from": "2026-11-27T11:08:37.263Z",
+  "to": "2026-11-28T10:42:44.754Z",
   "baseline": false,
   "projects": [
     {
@@ -9,15 +9,15 @@
       "events": [
         {
           "type": "new-package-release",
-          "package": "lenis",
-          "previousLatest": "1.3.28",
-          "latest": "1.3.29"
+          "package": "eslint",
+          "previousLatest": "10.15.0",
+          "latest": "10.16.0"
         },
         {
           "type": "new-package-release",
           "package": "lucide-react",
-          "previousLatest": "1.81.0",
-          "latest": "1.82.0"
+          "previousLatest": "1.82.0",
+          "latest": "1.83.0"
         }
       ]
     }
